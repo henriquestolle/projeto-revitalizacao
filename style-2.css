@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+* {
+   padding: 0px;
+   margin: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+   }
+
+
+header {
+   background-position: bottom bottom ;
+   background-size: cover;
+   background-image: url(imagens/fundo-pag-02.png);
+   width: 100%;
+   height: 200px;
+   text-align: center;
+   box-shadow: 0px 1px 3px 1px  rgba(0, 0, 0, 0.589);
+   }
+
+
+.titulo1 {
+   color: aliceblue;
+   font-family:'Megrim', Arial;
+   font-size: 3.5em;
+   padding: 50px 0px 0px 0px;
+   margin-bottom: 5px;
+   text-align: center center;
+   }
+
+
+.traco-azul {
+   width: 100px;
+   height: 10px;
+   margin: auto;
+   background-color:#4D8FA8 ;
+   }
+
+
+.conteudo {
+   box-shadow: 0px 0px 7px 0px  rgba(0, 0, 0, 0.589);
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #daeef5;
+   margin: 10px 60px 20px 60px;
+   height: 100vh;
+}
+
+
+.conteudo1 {
+   margin-top: 1px;
+   text-align: right center;
+}
+
+
+.titulo2 {
+   padding: 30px 0px 10px 10px;
+   font-size: 2em;
+}
+
+
+p {
+   font-size: 1.3em;
+   line-height: 1.2em;
+   text-indent: 15px;
+   padding: 0px 1px 0px 25px ;
+}
+
+
+.conteudo2 {
+   margin-top: 40px;
+   text-align: right;
+   margin-right: 100px;
+   font-size: 0.8em;
+}
+
+
+.paragrafo2 {
+   margin-top: 20px;
+   line-height: 1em;
+   text-indent: 15px;
+   padding: 0px 1px 0px 25px ;
+   font-size: 1.6em;
+}
+
+
+.imagem {
+   position: absolute;
+   top: 600px;
+   left: 170px;
+   width: 450px;
+   height: 230px;
+   border: 1px solid rgba(0, 0, 0, 0.151);
+   border-radius: 5px;
+   box-shadow: 0px 1px 5px 1px  rgba(0, 0, 0, 0.589);
+}
+
+
+.imagem:hover {
+   background-color: rgb(34, 105, 212);
+}

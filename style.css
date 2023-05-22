@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-image: url(imagens/tela-de-fundo.png);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+
+.titulo1 {
+    color: aliceblue;
+    font-family:'Megrim', Arial;
+    font-size: 3em;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+
+.traco-azul {
+    width: 100px;
+    height: 10px;
+    margin: auto;
+    background-color:#4D8FA8 ;
+    box-shadow: 0px 2px 4px 0px  rgba(0, 0, 0, 0.589);
+}
+
+
+.subtitulo1 {
+    color: white;
+    margin-top: 15px;
+    font-size: 1.3em;
+    font-family:'Megrim', Arial;
+}
+
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 100%;
+    height: 500px;
+    background-color: #3e7488;
+}
+
+
+.posts {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 60px;
+}
+
+
+.post1 {
+    box-shadow: 0px 1px 3px 1px  rgba(0, 0, 0, 0.589);
+    border-radius: 15px;
+    margin: 30px;
+    margin-left: 75px;
+    width: 177px;
+    height: 177px;
+    padding: 100px;
+    background-color: #141b3342;
+}
+
+
+.post2 {
+    box-shadow: 0px 1px 3px 1px  rgba(0, 0, 0, 0.589);
+    border-radius: 15px;
+    margin: 30px;
+    width: 177px;
+    height: 177px;
+    padding: 100px;
+    background-color: #141b3342;
+}
+
+
+.post3 {
+    box-shadow: 0px 1px 3px 1px  rgba(0, 0, 0, 0.589);
+    border-radius: 15px;
+    margin: 30px;
+    width: 177px;
+    height: 177px;
+    padding: 100px;
+    background-color: #141b3342;
+}
+
+
+a {
+    color: white;
+    text-decoration: underline;
+   
+}
+
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to bottom, #3e7488, #345f6e);
+}
+ 
+.img01 {
+    position: relative;
+    top: -37%;
+    left: -48%;
+    width: 350px;
+    height: 310px;
+    border-radius: 10px;
+}
+
+.img01:hover {
+    border: 2px solid rgba(219, 5, 5, 0.582);
+    transition: 0.2s;
+}
+
+.img02 {
+    position: relative;
+    top: -37%;
+    left: -48%;
+    width: 350px;
+    height: 310px;
+    border-radius: 10px;
+}
+
+.img02:hover {
+    border: 2px solid rgba(219, 5, 5, 0.582);
+    transition: 0.2s;
+}
