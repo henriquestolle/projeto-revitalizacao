@@ -42,7 +42,7 @@ header {
    font-family: Arial, Helvetica, sans-serif;
    background-color: #daeef5;
    margin: 10px 60px 20px 60px;
-   height: 100vh;
+   height: 100%;
 }
 
 
@@ -53,8 +53,10 @@ header {
 
 
 .titulo2 {
-   padding: 30px 0px 10px 10px;
+   font-family: 'Times New Roman', Times, serif;
+   padding: 30px 200px 10px 10px;
    font-size: 2em;
+   margin-bottom: 20px;
 }
 
 
@@ -67,34 +69,59 @@ p {
 
 
 .conteudo2 {
-   margin-top: 40px;
+   margin-top: 10px;
    text-align: right;
    margin-right: 100px;
    font-size: 0.8em;
 }
 
-
-.paragrafo2 {
-   margin-top: 20px;
-   line-height: 1em;
-   text-indent: 15px;
-   padding: 0px 1px 0px 25px ;
-   font-size: 1.6em;
-}
-
-
 .imagem {
-   position: absolute;
-   top: 600px;
-   left: 170px;
-   width: 450px;
-   height: 230px;
+   cursor: move;
+    height: 30%;
+    left: 30%;
+    position: absolute;
+    top: 110%;
+    width: 40%;
    border: 1px solid rgba(0, 0, 0, 0.151);
    border-radius: 5px;
-   box-shadow: 0px 1px 5px 1px  rgba(0, 0, 0, 0.589);
+   box-shadow: 0px 1px 5px 1px  #00000096;
 }
 
 
 .imagem:hover {
    background-color: rgb(34, 105, 212);
+}
+
+.traco-foto {
+   padding: 5px;
+   height: 20px;
+   width: 70%;
+   margin: auto;
+   margin-top: 300px;
+   border-radius: 3px;
+   background-color: #305d6e;
+   box-shadow: 0px 1px 5px 1px  #00000096 ;
+}
+
+.traco {
+   padding: 5px;
+   height: 20px;
+   width: 70%;
+   margin: auto;
+   margin-top: 20px;
+   border-radius: 3px;
+   background-color: #305d6e;
+   box-shadow: 0px 1px 5px 1px  #00000096 ;
+   margin-top: 20px;
+}
+
+
+.list {
+   border-radius: 15px;
+   border: 1px solid rgba(0, 0, 0, 0.456);
+   margin: auto;
+   width: 400px;
+   padding: 30px;
+   box-shadow: 0px 1px 5px 1px  #08876b;
+   margin-bottom: 30px;
 }
